@@ -1,0 +1,38 @@
+{
+  "name": "entrega-final-backend-nestjs",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node dist/main.js",
+    "start:dev": "ts-node-dev --respawn --transpile-only src/main.ts",
+    "build": "tsc -p tsconfig.json",
+    "test": "mocha -r ts-node/register test/**/*.spec.ts --timeout 20000"
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.2.0",
+    "@nestjs/core": "^10.2.0",
+    "@nestjs/mongoose": "^10.0.0",
+    "@nestjs/passport": "^10.0.0",
+    "@nestjs/platform-express": "^10.2.0",
+    "@nestjs/swagger": "^7.1.16",
+    "bcrypt": "^5.1.0",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.0",
+    "dotenv": "^16.0.3",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.4.0",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.8.2",
+    "swagger-ui-express": "^4.6.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "chai": "^4.3.8",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
+  }
+}
