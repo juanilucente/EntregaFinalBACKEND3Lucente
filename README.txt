@@ -19,15 +19,6 @@ Tests:
 - npm test
 (usa mocha + ts-node; test de adopciones incluidos en test/adoption.spec.ts)
 
-Docker:
-- Construir imagen:
-  docker build -t juanilucente/entrega-final-backend:latest .
-- Subir a DockerHub (tu sesión):
-  docker push juanilucente/entrega-final-backend:latest
-
-README del repo debe actualizar el link a la imagen una vez subida:
-https://hub.docker.com/r/juanilucente/entrega-final-backend
-
 Contenido principal:
 - src/ (Nest-style modules, controllers, services, schemas)
 - test/ (tests funcionales de adoption)
